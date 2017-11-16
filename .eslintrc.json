@@ -1,11 +1,12 @@
 {
     "extends": "airbnb",
-    "rules": {
+    "rules": {  
         "react/jsx-filename-extension": "off",
         "jsx-a11y/anchor-has-content": "off",
         "jsx-a11y/img-redundant-alt": "off",
         "jsx-a11y/anchor-is-valid": "off",
-        "max-len": "off"
+        "max-len": "off",
+        "prefer-template": "off"
         },
     "plugins": [
         "react",
