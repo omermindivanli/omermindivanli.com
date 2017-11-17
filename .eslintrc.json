@@ -1,20 +1,20 @@
 {
-    "extends": "airbnb",
-    "rules": {  
-        "react/jsx-filename-extension": "off",
-        "jsx-a11y/anchor-has-content": "off",
-        "jsx-a11y/img-redundant-alt": "off",
-        "jsx-a11y/anchor-is-valid": "off",
-        "max-len": "off",
-        "prefer-template": "off"
-        },
-    "plugins": [
-        "react",
-        "jsx-a11y",
-        "import"
-    ],
-    "env": {
-        "jest": true,
-        "browser": true
-    }
+  "extends": "airbnb",
+  "rules": {
+    "react/jsx-filename-extension": "off",
+    "jsx-a11y/anchor-has-content": "off",
+    "jsx-a11y/img-redundant-alt": "off",
+    "jsx-a11y/anchor-is-valid": "off",
+    "max-len": "off",
+    "prefer-template": "off",
+    "prettier/prettier": [
+      "error",
+      { "traillingComma": "all", "singleQuote": true, "printWidth": 100 }
+    ]
+  },
+  "plugins": ["react", "jsx-a11y", "import", "prettier"],
+  "env": {
+    "jest": true,
+    "browser": true
+  }
 }
