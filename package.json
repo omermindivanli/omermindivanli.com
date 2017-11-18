@@ -6,14 +6,22 @@
     "react": "^16.1.0",
     "react-bootstrap": "^0.31.5",
     "react-dom": "^16.1.0",
-    "react-scripts": "1.0.17"
+    "react-redux": "^5.0.6",
+    "react-scripts": "1.0.17",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6"
   },
   "scripts": {
     "start": "react-scripts start",
     "lint:eslint": "eslint .",
+    "lint:stylelint": "stylelint .",
+    "airbnb": "yarn run lint:eslint && yarn run lint:stylelint",
     "build": "react-scripts build",
+    "lint-staged": "lint-staged",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "format":
+      "prettier --print-width=100 --single-quote --trailing-comma all --write \"{src,__tests__}/**/*.js\""
   },
   "devDependencies": {
     "eslint-config-airbnb": "^16.1.0",
@@ -24,5 +32,9 @@
     "prettier": "^1.8.2",
     "stylelint": "^8.2.0",
     "stylelint-config-standard": "^17.0.0"
-  }
+  },
+  "lint-staged": {
+    "*.js": ["yarn run format", "git add"]
+  },
+  "pre-commit": "lint-staged"
 }

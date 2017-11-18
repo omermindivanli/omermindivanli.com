@@ -1,3 +1,18 @@
+# Hi Everyone! 
+
+This is my personal webpage. I have learnt lots of things about React and Redux development from Alpcan Aydin. In this project, I used the tools and libraries following:
+
+1. Eslint / Airbnb
+2. Stylelint / Airbnb
+3. Prettier
+4. Redux
+5. React
+6. Travis
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
