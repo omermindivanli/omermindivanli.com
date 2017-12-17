@@ -1,56 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- NOTE: I use Bootstrap on the following way;
-     I usually create some bootstrap containers, and then, I named them with id property.
-     Eventually, I added the CSS properties on that id in the CSS file that is the same name -->
 
-    <!-- Google Font: Oswald and Lato -->
-    <link href="https://fonts.googleapis.com/css?family=Lato|Oswald" rel="stylesheet">
+<head>
+  <!-- Google Font: Oswald and Lato -->
+  <link href="https://fonts.googleapis.com/css?family=Lato|Oswald" rel="stylesheet">
 
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-    
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
-    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>
-      You need to enable JavaScript to run this app.
-    </noscript>
-    
-    <!-- React Components have been executed in 
-      the following nests and Disqus-->
-    <div id="app"></div>
-    <div id="navbar"></div>
-    <div id="article"></div>
-    <div id="sidebar"></div>
-    <div class="container" id="disqus_thread"></div>
-    <div id="footer"></div>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+  <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+  <title>React App</title>
+</head>
 
-    <script>
-        (function() { // DON'T EDIT BELOW THIS LINE
-            var d = document, s = d.createElement('script');
-            s.src = 'https://http-omermindivanli-com.disqus.com/embed.js';
-            s.setAttribute('data-timestamp', +new Date());
-            (d.head || d.body).appendChild(s);
-        })();
-    </script>
+<body>
+  <noscript>
+    You need to enable JavaScript to run this app.
+  </noscript>
 
-    <noscript>
-      Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
-    </noscript>
+  <!-- React Components have been executed in 
+      the following nests -->
+  <div id="header"></div>
+  <div id="navbar"></div>
+  <div id="article"></div>
+  <div id="footer"></div>
 
-    <script id="dsq-count-scr" src="//http-omermindivanli-com.disqus.com/count.js" async></script>
+</body>
 
-     <!-- <script src=".dist/app/bundle.js"></script> -->
-
-    <!-- Bootstrap JavaScript -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-  </body>
 </html>

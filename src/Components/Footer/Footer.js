@@ -1,12 +1,9 @@
 import React from 'react';
-import './Footer.css';
+import './Footer.scss';
 
 // Footer Class = Component
 const Footer = () => (
-  <div id="Footer" className="container text-center">
-    <p className="Footer-p">Copyright 2017 // Ömer Mindivanli</p>
-    <p>This webpage been created with ReactJS.</p>
-  </div>
+  <p>Footer</p>
 );
 
 export default Footer;

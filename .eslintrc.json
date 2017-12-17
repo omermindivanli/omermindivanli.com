@@ -9,10 +9,19 @@
     "prefer-template": "off",
     "prettier/prettier": [
       "error",
-      { "trailingComma": "all", "singleQuote": true, "printWidth": 100 }
+      {
+        "trailingComma": "all",
+        "singleQuote": true,
+        "printWidth": 100
+      }
     ]
   },
-  "plugins": ["react", "jsx-a11y", "import", "prettier"],
+  "plugins": [
+    "react",
+    "jsx-a11y",
+    "import",
+    "prettier"
+  ],
   "env": {
     "jest": true,
     "browser": true
