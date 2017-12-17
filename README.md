@@ -1,8 +1,6 @@
 # Hi Everyone! 
 
-This is a React-Redux Boilerplate that use the techs on the following below. I have learnt lots of things about React and Redux development from open source community. I aimed to create a boilerplate that we can develop it together, which uses modern libraries with latest versions.
-
-It is also a kind of configured create-react-app.
+This is my personal webpage (http://omermindivanli.com) that use the techs on the following below. I have learnt lots of things about React and Redux development from open source community. I aimed to create a boilerplate that we can develop it together, which uses modern libraries with latest versions.
 
 1. Eslint / Airbnb
 2. Stylelint / Airbnb
@@ -13,6 +11,7 @@ It is also a kind of configured create-react-app.
 7. Snapshot Test
 8. Lint-Staged
 9. Sass
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
