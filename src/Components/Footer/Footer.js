@@ -1,9 +1,19 @@
-import React from 'react';
-import './Footer.scss';
+import React, { Component } from 'react';
+import './Footer.css';
 
-// Footer Class = Component
-const Footer = () => (
-  <p>Footer</p>
-);
+class Footer extends Component {
+  render() {
+    return (
+      <div className="footer-div">
+        <p className="footer-p">
+          Copyrigth 2017 // Created by
+          <a className="footer-a" href="http://github.com/mndvn">
+            -Ömer Mindivanli
+          </a>
+        </p>
+      </div>
+    );
+  }
+}
 
 export default Footer;
