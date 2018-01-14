@@ -18,6 +18,7 @@ const RouterApp = () => (
       <Route exact path="/portfolio" component={Portfolio} />
       <Route exact path="/software" component={Software} />
       <Route exact path="/life" component={Life} />
+
     </div>
   </Router>
 );

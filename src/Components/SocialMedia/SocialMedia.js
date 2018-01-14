@@ -29,12 +29,11 @@ class Life extends Component {
               <span className="fa fa-linkedin fa-2x" />
             </a>
             <a
-              href="https://www.instagram.com/xcons_haninge/"
+              href="https://www.instagram.com/mindivanli/"
               className="btn btn-social-icon btn-instagram"
             >
               <span className="fa fa-instagram fa-2x" />
             </a>
-            <br />
           </ul>
         </div>
       </div>

@@ -4,14 +4,10 @@ import './Footer.css';
 class Footer extends Component {
   render() {
     return (
-      <div className="footer-div">
-        <p className="footer-p">
-          Copyrigth 2017 // Created by
-          <a className="footer-a" href="http://github.com/mndvn">
-            -Ömer Mindivanli
-          </a>
-        </p>
-      </div>
+      <footer class="footer text-center">
+        <span class="text-muted">E-mail: </span>
+        <a href="mailto:omer.mindivanli@gmail.com"> omer.mindivanli@gmail.com</a>
+      </footer>
     );
   }
 }

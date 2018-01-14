@@ -56,13 +56,13 @@ class Navbar extends Component {
                 </a>
                 <div className="dropdown-menu" aria-labelledby="dropdown09">
                   <a className="dropdown-item" href="#">
-                    Action
+                    Opinions
                   </a>
                   <a className="dropdown-item" href="#">
-                    Another action
+                    Hobbies
                   </a>
                   <a className="dropdown-item" href="#">
-                    Something else here
+                    Family
                   </a>
                 </div>
               </Link>
