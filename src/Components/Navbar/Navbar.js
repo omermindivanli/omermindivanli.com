@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import { Lines } from 'react-preloading-component';
 import './Navbar.css';
 
 class Navbar extends Component {
@@ -7,9 +8,12 @@ class Navbar extends Component {
     return (
       <div>
         <nav className="navbar navbar-expand-lg navbar-light bg-yellow rounded header-font">
-          <a className="navbar-brand" href="http://omermindivanli.com">
+          <a className="navbar-brand nav-link" href="http://omermindivanli.com">
             Ömer Mindivanli
           </a>
+          <div>
+            <Lines color="blue" />
+          </div>
           <button
             className="navbar-toggler"
             type="button"
@@ -71,6 +75,10 @@ class Navbar extends Component {
                 aria-label="Search"
               />
             </form>
+            <ul className="navbar-nav">
+              <li className="nav-link active">Sw</li>
+              <li className="nav-link active">Tr</li>
+            </ul>
           </div>
         </nav>
       </div>

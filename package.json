@@ -7,11 +7,12 @@
     "react": "^16.1.0",
     "react-bootstrap": "^0.31.5",
     "react-dom": "^16.1.0",
+    "react-preloading-component": "0.0.5",
     "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
     "react-scripts": "1.0.17",
     "redux": "^3.7.2",
-    "redux-logger": "^3.0.6",
-    "react-router-dom": "^4.2.2"
+    "redux-logger": "^3.0.6"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -24,8 +25,7 @@
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
     "eject": "react-scripts eject",
-    "format":
-      "prettier --print-width=100 --single-quote --trailing-comma all --write \"{src,__tests__}/**/*.js\""
+    "format": "prettier --print-width=100 --single-quote --trailing-comma all --write \"{src,__tests__}/**/*.js\""
   },
   "devDependencies": {
     "eslint-config-airbnb": "^16.1.0",
@@ -41,7 +41,10 @@
     "stylelint-config-standard": "^17.0.0"
   },
   "lint-staged": {
-    "*.js": ["yarn run format", "git add"]
+    "*.js": [
+      "yarn run format",
+      "git add"
+    ]
   },
   "pre-commit": "lint-staged"
 }
