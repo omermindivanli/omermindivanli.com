@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import './Life.css';
 
-class Life extends Component {
+class Thoughts extends Component {
   render() {
     return (
       <main role="main" className="container">
@@ -88,4 +87,4 @@ class Life extends Component {
   }
 }
 
-export default Life;
+export default Thoughts;

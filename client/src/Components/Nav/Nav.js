@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { withStyles } from 'material-ui/styles';
 import AppBar from 'material-ui/AppBar';
@@ -9,7 +10,7 @@ import MenuIcon from 'material-ui-icons/Menu';
 import AccountCircle from 'material-ui-icons/AccountCircle';
 import Switch from 'material-ui/Switch';
 import { FormControlLabel, FormGroup } from 'material-ui/Form';
-import { MenuItem } from 'material-ui/Menu';
+import Menu, { MenuItem } from 'material-ui/Menu';
 import Drawer from 'material-ui/Drawer';
 import List from 'material-ui/List';
 import Divider from 'material-ui/Divider';
@@ -24,12 +25,13 @@ const styles = {
   },
   root: {
     width: '100%',
+    backgroundColor: '#eee',
   },
   flex: {
     flex: 1,
   },
   menuButton: {
-    marginLeft: -12,
+    marginLeft: -5,
     marginRight: 20,
   },
 };
@@ -83,7 +85,7 @@ class Nav extends Component {
           />
         </FormGroup>
 
-        <AppBar position="fixed">
+        <AppBar position="static">
           <Toolbar>
             <IconButton
               onClick={this.toggleDrawer('left', true)}
@@ -102,17 +104,23 @@ class Nav extends Component {
                   onKeyDown={this.toggleDrawer('left', false)}
                 >
                   {sideList}
-                  <MenuItem onClick={this.handleClose}>Profile</MenuItem>
-                  <MenuItem onClick={this.handleClose}>My account</MenuItem>
-                  <MenuItem onClick={this.handleClose}>Logout</MenuItem>
-                  <MenuItem onClick={this.handleClose}>asd</MenuItem>
-                  <MenuItem onClick={this.handleClose}>123</MenuItem>
-                  <MenuItem onClick={this.handleClose}>zxc</MenuItem>
+                  <MenuItem onClick={this.handleClose}>
+                    <Link to="/">Home</Link>
+                  </MenuItem>
+                  <MenuItem onClick={this.handleClose}>
+                    <Link to="/portfolio">Portfolio</Link>
+                  </MenuItem>
+                  <MenuItem onClick={this.handleClose}>
+                    <Link to="/software">Software</Link>
+                  </MenuItem>
+                  <MenuItem onClick={this.handleClose}>
+                    <Link to="/thoughts">Thoughts</Link>
+                  </MenuItem>
                 </div>
               </Drawer>
             </div>
             <Typography type="title" color="inherit" className={classes.flex}>
-              Title
+              Ömer Mindivanli M.Sc
             </Typography>
             {auth && (
               <div>
@@ -124,6 +132,23 @@ class Nav extends Component {
                 >
                   <AccountCircle />
                 </IconButton>
+                <Menu
+                  id="menu-appbar"
+                  anchorEl={anchorEl}
+                  anchorOrigin={{
+                    vertical: 'top',
+                    horizontal: 'right',
+                  }}
+                  transformOrigin={{
+                    vertical: 'top',
+                    horizontal: 'right',
+                  }}
+                  open={open}
+                  onClose={this.handleClose}
+                >
+                  <MenuItem onClick={this.handleClose}>Dashboard</MenuItem>
+                  <MenuItem onClick={this.handleClose}>Log Out</MenuItem>
+                </Menu>
               </div>
             )}
           </Toolbar>

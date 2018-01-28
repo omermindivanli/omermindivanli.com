@@ -4,7 +4,7 @@ import Nav from '../Components/Nav/Nav';
 import Home from '../Components/Home/Home';
 import Portfolio from '../Components/Portfolio/Portfolio';
 import Software from '../Components/Software/Software';
-import Life from '../Components/Life/Life';
+import Thoughts from '../Components/Thoughts/Thoughts';
 import SocialMedia from '../Components/SocialMedia/SocialMedia';
 
 const RouterApp = () => (
@@ -12,11 +12,10 @@ const RouterApp = () => (
     <div>
       <Nav />
       <SocialMedia />
-
       <Route exact path="/" component={Home} />
       <Route exact path="/portfolio" component={Portfolio} />
       <Route exact path="/software" component={Software} />
-      <Route exact path="/life" component={Life} />
+      <Route exact path="/life" component={Thoughts} />
     </div>
   </Router>
 );

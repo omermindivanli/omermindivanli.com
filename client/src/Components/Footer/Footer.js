@@ -13,7 +13,7 @@ const styles = {
   },
 };
 
-class LabelBottomNavigation extends Component {
+class Footer extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -40,8 +40,8 @@ class LabelBottomNavigation extends Component {
   }
 }
 
-LabelBottomNavigation.propTypes = {
+Footer.propTypes = {
   classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(LabelBottomNavigation);
+export default withStyles(styles)(Footer);
