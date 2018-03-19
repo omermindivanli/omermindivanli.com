@@ -1,3 +1,12 @@
+Hi I am Ömer Mindivanli,
+I have been trying to be a web developer for a long time. I am a self-taught developer. I really dislike narcistic actions about learning and sharing some of my exp with ppl who wanna learn smth about development and software sciences.
+
+Roughly, A year and half, owing to some of blog posts, I thought to not using boilerplates. I believe that it was a good decision. Becasue I had to dealt with some of problems. But, along this time, besides learning lots of javaScript techs, I think I lost time. That React Boilerplate is not included React 16.0. Is it a requirement to use it? I consider no!.
+
+I am super excited to meet with react-boilerplate. When I have a quick look to the code inside it, I said to myself that I gave super bad code bases for my customers. Now, to be honest, I am super regretful. For instance, I have never created NotFoundPage. For those reasons, Using a boilerplate might cost you much in terms of bundling ,maybe some of unnecessary,codes or using a tonnes of lib to you do not have to. But, in order for understanding an expert look on React and Redux or Front-end techs. Those are really helpful. You can use a boilerplate ina a project and then, try to create on your own small or ideal boilerplate. I strongly believe that the way of coding is very different from dev to dev. Each of dev should learn how to handle big projects with a good codebase...
+
+Have a nice day :) :) :)
+
 <img src="https://raw.githubusercontent.com/react-boilerplate/react-boilerplate-brand/master/assets/banner-metal-optimized.jpg" alt="react boilerplate banner" align="center" />
 
 <br />
@@ -82,14 +91,14 @@
 
 But wait... there's more!
 
-  - *The best test setup:* Automatically guarantee code quality and non-breaking
-    changes. (Seen a react app with 99% test coverage before?)
-  - *Native web app:* Your app's new home? The home screen of your users' phones.
-  - *The fastest fonts:* Say goodbye to vacant text.
-  - *Stay fast*: Profile your app's performance from the comfort of your command
-    line!
-  - *Catch problems:* AppVeyor and TravisCI setups included by default, so your
-    tests get run automatically on Windows and Unix.
+* _The best test setup:_ Automatically guarantee code quality and non-breaking
+  changes. (Seen a react app with 99% test coverage before?)
+* _Native web app:_ Your app's new home? The home screen of your users' phones.
+* _The fastest fonts:_ Say goodbye to vacant text.
+* _Stay fast_: Profile your app's performance from the comfort of your command
+  line!
+* _Catch problems:_ AppVeyor and TravisCI setups included by default, so your
+  tests get run automatically on Windows and Unix.
 
 There’s also a <a href="https://vimeo.com/168648012">fantastic video</a> on how to structure your React.js apps with scalability in mind. It provides rationale for the majority of boilerplate's design decisions.
 
@@ -97,12 +106,12 @@ There’s also a <a href="https://vimeo.com/168648012">fantastic video</a> on ho
 
 ## Quick start
 
-1. Clone this repo using `git clone --depth=1 https://github.com/react-boilerplate/react-boilerplate.git`
-2. Move to the appropriate directory: `cd react-boilerplate`.<br />
-3. Run `npm run setup` in order to install dependencies and clean the git repo.<br />
-   *We auto-detect `yarn` for installing packages by default, if you wish to force `npm` usage do: `USE_YARN=false npm run setup`*<br />
-   *At this point you can run `npm start` to see the example app at `http://localhost:3000`.*
-4. Run `npm run clean` to delete the example app.
+1.  Clone this repo using `git clone --depth=1 https://github.com/react-boilerplate/react-boilerplate.git`
+2.  Move to the appropriate directory: `cd react-boilerplate`.<br />
+3.  Run `npm run setup` in order to install dependencies and clean the git repo.<br />
+    _We auto-detect `yarn` for installing packages by default, if you wish to force `npm` usage do: `USE_YARN=false npm run setup`_<br />
+    _At this point you can run `npm start` to see the example app at `http://localhost:3000`._
+4.  Run `npm run clean` to delete the example app.
 
 Now you're ready to rumble!
 
@@ -110,14 +119,14 @@ Now you're ready to rumble!
 
 ## Documentation
 
-- [**The Hitchhikers Guide to `react-boilerplate`**](docs/general/introduction.md): An introduction for newcomers to this boilerplate.
-- [Overview](docs/general): A short overview of the included tools
-- [**Commands**](docs/general/commands.md): Getting the most out of this boilerplate
-- [Testing](docs/testing): How to work with the built-in test harness
-- [Styling](docs/css): How to work with the CSS tooling
-- [Your app](docs/js): Supercharging your app with Routing, Redux, simple
+* [**The Hitchhikers Guide to `react-boilerplate`**](docs/general/introduction.md): An introduction for newcomers to this boilerplate.
+* [Overview](docs/general): A short overview of the included tools
+* [**Commands**](docs/general/commands.md): Getting the most out of this boilerplate
+* [Testing](docs/testing): How to work with the built-in test harness
+* [Styling](docs/css): How to work with the CSS tooling
+* [Your app](docs/js): Supercharging your app with Routing, Redux, simple
   asynchronicity helpers, etc.
-- [**Troubleshooting**](docs/general/gotchas.md): Solutions to common problems faced by developers.
+* [**Troubleshooting**](docs/general/gotchas.md): Solutions to common problems faced by developers.
 
 ## Supporters
 
@@ -134,7 +143,7 @@ This project would not be possible without the support by these amazing folks. [
 <a href="https://opencollective.com/react-boilerplate/bronze-sponsor/8/website" target="_blank"><img src="https://opencollective.com/react-boilerplate/bronze-sponsor/8/avatar.svg"></a>
 <a href="https://opencollective.com/react-boilerplate/bronze-sponsor/9/website" target="_blank"><img src="https://opencollective.com/react-boilerplate/bronze-sponsor/9/avatar.svg"></a>
 
-----
+---
 
 <a href="https://opencollective.com/react-boilerplate/backer/0/website" target="_blank"><img src="https://opencollective.com/react-boilerplate/backer/0/avatar.svg"></a>
 <a href="https://opencollective.com/react-boilerplate/backer/1/website" target="_blank"><img src="https://opencollective.com/react-boilerplate/backer/1/avatar.svg"></a>
@@ -146,7 +155,6 @@ This project would not be possible without the support by these amazing folks. [
 <a href="https://opencollective.com/react-boilerplate/backer/7/website" target="_blank"><img src="https://opencollective.com/react-boilerplate/backer/7/avatar.svg"></a>
 <a href="https://opencollective.com/react-boilerplate/backer/8/website" target="_blank"><img src="https://opencollective.com/react-boilerplate/backer/8/avatar.svg"></a>
 <a href="https://opencollective.com/react-boilerplate/backer/9/website" target="_blank"><img src="https://opencollective.com/react-boilerplate/backer/9/avatar.svg"></a>
-
 
 ## License
 
