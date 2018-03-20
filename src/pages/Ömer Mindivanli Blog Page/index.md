@@ -3,7 +3,7 @@ title: I have started to publish blog posts
 date: "2018-03-20T22:12:03.284Z"
 ---
 
-This is my first post on my new fake blog! How exciting!
+This is my first blog! How exciting!
 
 I'm sure I'll write a lot more interesting things in the future.
 

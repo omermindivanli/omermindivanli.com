@@ -27,10 +27,11 @@ class Bio extends React.Component {
           }}
         />
         <p>
-          Written by <strong>Kyle Mathews</strong> who lives and works in San
-          Francisco building useful things.{' '}
-          <a href="https://twitter.com/kylemathews">
-            You should follow him on Twitter
+          Written by <strong>Ömer Mindivanli</strong> who is a JavaScript
+          Developer, lives and works in Stockholm building Web Apps with mostly
+          React.{' '}
+          <a href="https://twitter.com/MindivanliOmer">
+            <br />You should follow him on Twitter
           </a>
         </p>
       </div>

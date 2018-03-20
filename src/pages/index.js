@@ -5,6 +5,7 @@ import Helmet from 'react-helmet'
 
 import Bio from '../components/Bio'
 import { rhythm } from '../utils/typography'
+import Footer from '../components/Footer'
 
 class BlogIndex extends React.Component {
   render() {
@@ -33,6 +34,7 @@ class BlogIndex extends React.Component {
             </div>
           )
         })}
+        <Footer />
       </div>
     )
   }
