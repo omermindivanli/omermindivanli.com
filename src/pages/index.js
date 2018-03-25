@@ -5,7 +5,7 @@ import Helmet from 'react-helmet'
 
 import Bio from '../components/Bio'
 import { rhythm } from '../utils/typography'
-import Footer from '../components/Footer'
+import SocialMedia from '../components/SocialMedia'
 
 class BlogIndex extends React.Component {
   render() {
@@ -16,6 +16,7 @@ class BlogIndex extends React.Component {
       <div>
         <Helmet title={siteTitle} />
         <Bio />
+        <SocialMedia />
         {posts.map(({ node }) => {
           const title = get(node, 'frontmatter.title') || node.fields.slug
           return (
@@ -34,7 +35,6 @@ class BlogIndex extends React.Component {
             </div>
           )
         })}
-        <Footer />
       </div>
     )
   }

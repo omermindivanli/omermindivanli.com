@@ -4,21 +4,24 @@ import React from 'react'
 import 'typeface-montserrat'
 import 'typeface-merriweather'
 
-import profilePic from './profile-pic.jpg'
+import profilePic from '../../static/img/profile-pic.jpg'
 import { rhythm } from '../utils/typography'
 
 class Bio extends React.Component {
   render() {
+    const mail = {
+      address: 'omer.mindivanli@gmail.com',
+    }
     return (
       <div
         style={{
           display: 'flex',
-          marginBottom: rhythm(2.5),
+          marginBottom: rhythm(0.5),
         }}
       >
         <img
           src={profilePic}
-          alt={`Kyle Mathews`}
+          alt={`Ömer Mindivanli`}
           style={{
             marginRight: rhythm(1 / 2),
             marginBottom: 0,
@@ -31,8 +34,10 @@ class Bio extends React.Component {
           Developer, lives and works in Stockholm building Web Apps with mostly
           React.{' '}
           <a href="https://twitter.com/MindivanliOmer">
-            <br />You should follow him on Twitter
+            <br />Follow me on Twitter
           </a>
+          {'  or  '}
+          <a href="mailto:omer.mindivanli@gmail.com">{mail.address}</a>
         </p>
       </div>
     )

@@ -6,22 +6,21 @@ import 'typeface-merriweather'
 
 import { rhythm } from '../utils/typography'
 
-class Footer extends React.Component {
+export default class SocialMedia extends React.Component {
   render() {
-    const mail = {
-      address: 'omer.mindivanli@gmail.com',
-    }
     return (
       <div
         style={{
           display: 'flex',
-          marginBottom: rhythm(2.5),
         }}
       >
-        <a href="mailto:omer.mindivanli@gmail.com">{mail.address}</a>
+        <ul>
+          <li>a</li>
+          <li>b</li>
+          <li>c</li>
+          <li>d</li>
+        </ul>
       </div>
     )
   }
 }
-
-export default Footer
