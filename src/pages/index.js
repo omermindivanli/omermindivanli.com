@@ -6,15 +6,16 @@ import Helmet from 'react-helmet'
 import Bio from '../components/Bio'
 import { rhythm } from '../utils/typography'
 import SocialMedia from '../components/SocialMedia'
+import CodesandBox from '../components/CodesandBox'
 
 class BlogIndex extends React.Component {
   render() {
     const siteTitle = get(this, 'props.data.site.siteMetadata.title')
     const posts = get(this, 'props.data.allMarkdownRemark.edges')
-
     return (
       <div>
         <Helmet title={siteTitle} />
+        <CodesandBox />
         <Bio />
         <SocialMedia />
         {posts.map(({ node }) => {
