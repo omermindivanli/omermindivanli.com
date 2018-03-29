@@ -4,7 +4,7 @@ import React from 'react'
 import 'typeface-montserrat'
 import 'typeface-merriweather'
 
-import { fontFace, injectGlobal, css } from 'emotion'
+import { css, injectGlobal } from 'emotion'
 import styled from 'react-emotion'
 
 import { rhythm } from '../utils/typography'
@@ -29,17 +29,14 @@ export default class SocialMedia extends React.Component {
         paddingLeft: '15px',
       },
     }
-    injectGlobal`
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-    `
     const className = css`
       width: 60px;
       height: 60px;
       margin-left: 10px;
+    `
+    const anotherClassName = css`
+      display: inline;
+      padding-left: 15px;
     `
     return (
       <div style={styles.div}>
@@ -60,7 +57,7 @@ export default class SocialMedia extends React.Component {
               />
             </a>
           </li>
-          <li style={styles.li}>
+          <li className={anotherClassName}>
             <a href="https://github.com/omermindivanli">
               <img
                 className={className}

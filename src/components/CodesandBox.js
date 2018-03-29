@@ -1,4 +1,3 @@
-// Codesandbox component for blog posts
 import React from 'react'
 
 // Import typefaces

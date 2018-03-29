@@ -25,6 +25,7 @@ class Template extends React.Component {
         >
           <Link
             style={{
+              fontSize: '60px',
               boxShadow: 'none',
               textDecoration: 'none',
               color: 'inherit',
@@ -60,7 +61,7 @@ class Template extends React.Component {
     return (
       <Container
         style={{
-          maxWidth: rhythm(24),
+          maxWidth: rhythm(25),
           padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
         }}
       >
