@@ -1,3 +1,4 @@
+// Codesandbox component for blog posts
 import React from 'react'
 
 // Import typefaces
@@ -15,8 +16,8 @@ export default class CodesandBox extends React.Component {
     const styles = {
       codesandbox: {
         width: '100%',
-        minHeight: '600px'
-      }
+        minHeight: '600px',
+      },
     }
     return (
       <div
@@ -25,7 +26,10 @@ export default class CodesandBox extends React.Component {
           marginBottom: rhythm(0.5),
         }}
       >
-       <iframe src="https://codesandbox.io/embed/new?codemirror=1" style={styles.codesandbox}  />      
+        <iframe
+          src="https://codesandbox.io/embed/new?codemirror=1"
+          style={styles.codesandbox}
+        />
       </div>
     )
   }

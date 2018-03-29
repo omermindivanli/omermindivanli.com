@@ -1,64 +1,61 @@
-  import React from 'react'
+import React from 'react'
 
-  // Import typefaces
-  import 'typeface-montserrat'
-  import 'typeface-merriweather'
+// Import typefaces
+import 'typeface-montserrat'
+import 'typeface-merriweather'
 
-  import styled from "styled-components";
-  
-  import { rhythm } from '../utils/typography'
+import { fontFace, injectGlobal } from 'emotion'
+import styled from 'react-emotion'
 
-  export default class SocialMedia extends React.Component {
-    constructor(props) {
-      super(props)
+import { rhythm } from '../utils/typography'
+
+export default class SocialMedia extends React.Component {
+  render() {
+    const userDatas = {
+      name: 'Ömer',
+      surname: 'Mindivanli',
+      avatar: 'https://avatars0.githubusercontent.com/u/24420843?s=40&v=4',
     }
-    example() {
-        let x = (new Date()).toLocaleDateString();
-        console.log(typeof x + ' ' + x);
+    const styles = {
+      div: {
+        display: 'flex',
+        marginBottom: rhythm(0.5),
+      },
+      ul: {
+        backgroundColor: 'red',
+      },
+      li: {
+        display: 'inline',
+        paddingLeft: '15px',
+      },
     }
-    render() {
-      const userDatas = {
-        name: 'Ömer',
-        surname: 'Mindivanli',
-        avatar: 'https://avatars0.githubusercontent.com/u/24420843?s=40&v=4',
+    injectGlobal`
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
       }
-      const Button = styled.button`
-        border-radius: 1px;
-        padding: 0.25em 2em;
-        margin: 0 1em;
-        background: pink;
-        color: palevioletred;
-        border: 2px solid red;
-      `;
-      const styles = {
-        div: {
-          display: 'flex',
-          marginBottom: rhythm(0.5),
-        },
-        ul: {
-          backgroundColor: 'red',
-        },
-        li: {
-          display: 'inline',
-          paddingLeft: '15px',
-        },
-      }
-      return (
-        <div style={styles.div}>
-          <Button onClick={this.example}>Button</Button>
-          <img src={userDatas.avatar} />
-          <ul>
-            <li style={styles.li}>{userDatas.name}</li>
-            <li
-              style={{
-                backgroundColor: 'red',
-              }}
-            >
-              {userDatas.surname}
-            </li>
-          </ul>
-          <p></p>
-        </div>
-      )
-    }
+    `
+    return (
+      <div style={styles.div}>
+        <ul>
+          <li style={styles.li}>
+            <a href="https://twitter.com/MindivanliOmer">
+              <img src="http://www.stickpng.com/assets/images/580b57fcd9996e24bc43c53e.png" />
+            </a>
+          </li>
+          <li style={styles.li}>
+            <a href="https://www.linkedin.com/in/%C3%B6mer-mindivanli-a02b3552/">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" />
+            </a>
+          </li>
+          <li style={styles.li}>
+            <a href="https://github.com/omermindivanli">
+              <img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    )
   }
+}

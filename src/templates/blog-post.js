@@ -11,7 +11,6 @@ class BlogPostTemplate extends React.Component {
     const post = this.props.data.markdownRemark
     const siteTitle = get(this.props, 'data.site.siteMetadata.title')
     const { previous, next } = this.props.pathContext
-
     return (
       <div>
         <Helmet title={`${post.frontmatter.title} | ${siteTitle}`} />

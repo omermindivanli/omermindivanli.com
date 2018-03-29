@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Starter Blog',
-    author: 'Kyle Mathews',
-    description: 'A starter blog demonstrating what Gatsby can do.',
-    siteUrl: 'https://gatsbyjs.github.io/gatsby-starter-blog/',
+    title: 'Ömer Mindivanli Blog',
+    author: 'Ömer Mindivanli',
+    description: "A starter blog demonstrating what Ömer's ideas are",
+    siteUrl: 'https://omermindivanli.com',
   },
   pathPrefix: '/gatsby-starter-blog',
   plugins: [
@@ -46,6 +46,7 @@ module.exports = {
     },
     `gatsby-plugin-feed`,
     `gatsby-plugin-offline`,
+    `gatsby-plugin-emotion`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: 'gatsby-plugin-typography',

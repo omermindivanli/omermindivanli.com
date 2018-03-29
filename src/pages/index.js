@@ -1,12 +1,12 @@
 import React from 'react'
+import Bio from '../components/Bio'
+import SocialMedia from '../components/SocialMedia'
+
 import Link from 'gatsby-link'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
 
-import Bio from '../components/Bio'
 import { rhythm } from '../utils/typography'
-import SocialMedia from '../components/SocialMedia'
-import CodesandBox from '../components/CodesandBox'
 
 class BlogIndex extends React.Component {
   render() {
@@ -15,7 +15,6 @@ class BlogIndex extends React.Component {
     return (
       <div>
         <Helmet title={siteTitle} />
-        <CodesandBox />
         <Bio />
         <SocialMedia />
         {posts.map(({ node }) => {
