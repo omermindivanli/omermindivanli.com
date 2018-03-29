@@ -4,7 +4,7 @@ import React from 'react'
 import 'typeface-montserrat'
 import 'typeface-merriweather'
 
-import { fontFace, injectGlobal } from 'emotion'
+import { fontFace, injectGlobal, css } from 'emotion'
 import styled from 'react-emotion'
 
 import { rhythm } from '../utils/typography'
@@ -19,7 +19,7 @@ export default class SocialMedia extends React.Component {
     const styles = {
       div: {
         display: 'flex',
-        marginBottom: rhythm(0.5),
+        marginBottom: 0,
       },
       ul: {
         backgroundColor: 'red',
@@ -36,22 +36,36 @@ export default class SocialMedia extends React.Component {
         box-sizing: border-box;
       }
     `
+    const className = css`
+      width: 60px;
+      height: 60px;
+      margin-left: 10px;
+    `
     return (
       <div style={styles.div}>
         <ul>
           <li style={styles.li}>
             <a href="https://twitter.com/MindivanliOmer">
-              <img src="http://www.stickpng.com/assets/images/580b57fcd9996e24bc43c53e.png" />
+              <img
+                className={className}
+                src="http://www.stickpng.com/assets/images/580b57fcd9996e24bc43c53e.png"
+              />
             </a>
           </li>
           <li style={styles.li}>
             <a href="https://www.linkedin.com/in/%C3%B6mer-mindivanli-a02b3552/">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" />
+              <img
+                className={className}
+                src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png"
+              />
             </a>
           </li>
           <li style={styles.li}>
             <a href="https://github.com/omermindivanli">
-              <img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" />
+              <img
+                className={className}
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2000px-Octicons-mark-github.svg.png"
+              />
             </a>
           </li>
         </ul>
