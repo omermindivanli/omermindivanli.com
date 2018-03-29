@@ -1,8 +1,8 @@
 {
   "assetsByChunkName": {
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-ae17e60448d3a2382fff.js",
-      "component---src-pages-index-js-ae17e60448d3a2382fff.js.map"
+      "component---src-pages-index-js-8242662579978360a562.js",
+      "component---src-pages-index-js-8242662579978360a562.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -21,16 +21,16 @@
       "component---src-layouts-index-js-80c99651f97fba6fe186.js.map"
     ],
     "path---hi-folks": [
-      "path---hi-folks-541b8cc683caa2aa62f5.js",
-      "path---hi-folks-541b8cc683caa2aa62f5.js.map"
+      "path---hi-folks-c1cb27eb29b569adf297.js",
+      "path---hi-folks-c1cb27eb29b569adf297.js.map"
     ],
     "path---omer-mindivanli-blog-page": [
-      "path---omer-mindivanli-blog-page-dc79175f2aa96cddb67d.js",
-      "path---omer-mindivanli-blog-page-dc79175f2aa96cddb67d.js.map"
+      "path---omer-mindivanli-blog-page-450e96570a0e0b7ec646.js",
+      "path---omer-mindivanli-blog-page-450e96570a0e0b7ec646.js.map"
     ],
     "path---index": [
-      "path---index-2c72e2c16fe0a389850d.js",
-      "path---index-2c72e2c16fe0a389850d.js.map"
+      "path---index-27035e29a8c27016008a.js",
+      "path---index-27035e29a8c27016008a.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
@@ -51,9 +51,9 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-527317f4bf695d573e7e.js",
+      "app-90a08ebd84138289572f.js",
       "build-js-styles.css",
-      "app-527317f4bf695d573e7e.js.map",
+      "app-90a08ebd84138289572f.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
