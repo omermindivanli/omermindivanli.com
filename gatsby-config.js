@@ -54,13 +54,5 @@ module.exports = {
         pathToConfigModule: 'src/utils/typography',
       },
     },
-    {
-      resolve: `gatsby-source-contentful`,
-      options: {
-        spaceId: `9hpsdmv8k6ai`,
-        accessToken: `7bcbd5845a1bca13186821a39f73bdd91b0fbee13ed54f7fb27810330ed78130`,
-        host: `ab539f3e41705d2a168781cc8f8187191e4dd2a0c85e750ac33bdbd1a0c730f1`,
-      },
-    },
   ],
 }

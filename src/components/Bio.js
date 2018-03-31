@@ -9,6 +9,9 @@ import { rhythm } from '../utils/typography'
 
 class Bio extends React.Component {
   render() {
+    const mail = {
+      address: 'omer.mindivanli@gmail.com',
+    }
     return (
       <div
         style={{
@@ -34,9 +37,7 @@ class Bio extends React.Component {
             <br />Follow me on Twitter
           </a>
           {'  or  '}
-          <a href="mailto:omer.mindivanli@gmail.com">
-            omer.mindivanli@gmail.com
-          </a>
+          <a href="mailto:omer.mindivanli@gmail.com">{mail.address}</a>
         </p>
       </div>
     )
