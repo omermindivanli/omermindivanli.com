@@ -1,54 +1,23 @@
 ---
-title: New Beginnings
-date: "2015-05-28T22:40:32.169Z"
+title: About me...
+date: "2018-03-31T15:40:32.169Z"
 ---
 
-Far far away, behind the word mountains, far from the countries Vokalia and
-Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
-right at the coast of the Semantics, a large language ocean. A small river named
-Duden flows by their place and supplies it with the necessary regelialia.
+## Introducing me briefly...
 
-## On deer horse aboard tritely yikes and much
+Hi Everyone, My name is Ömer Mindivanli, 29 years old and from Turkey. I have been living all my life in Turkey until I move to Sweden in 2016. My family lives in Istanbul. Exploring new place and meeting with new people from different cultures is an exciting oppurtunity. In my homeland, There are lots of foreigners but I do not know I had no friend from China or the U.S. I mean I am very glad to move Sweden and trying to learn Swedish culture. I would share my opinions about the Swedish Culture and people in the following blog posts. They are great! :)
 
-The Big Oxmox advised her not to do so, because there were thousands of bad
-Commas, wild Question Marks and devious Semikoli, but the Little Blind Text
-didn’t listen. She packed her seven versalia, put her initial into the belt and
-made herself on the way.
+## Meeting with Software Development
 
-* This however showed weasel
-* Well uncritical so misled
-  * this is very interesting
-* Goodness much until that fluid owl
+A couple of years ago, when I was a freshman in my bachelor, I got a course which is called The Basics of Information and Communication Technologies 101. The lecture was Prof.Dr Kaan ERASLAN. He gratuaded from METU from Mining Engineering. He tried to taught us C++ with Borland Builder. Interestingly, I understood everything in that lessons in just a quick revision and then, started to build a calculator, in other word, real world programs on my own. I thought Oh Gosh! I have a talent about it. After that, He understood I was quite eager to learn such things in a short time. He gave me a assistanship in that lesson. Beacuse, My classmates did not create or implement programs that in the instructions quickly and he was the only person who knows programming to teach students. He said to me that Ömer you are gonna help you friends. In the first examination, I took 100 / A++ score. Everybody was shocked. Eventually, in the final exam, I got 90 score. He orginised a ceramony and was awareded me with a chocolate. The applauses were rising. It was such a great experience for me and then, he added some of your friends do not have to work their areas. They would be a developer.
 
-When she reached the first hills of the **Italic Mountains**, she had a last
-view back on the skyline of her hometown _Bookmarksgrove_, the headline of
-[Alphabet Village](http://google.com) and the subline of her own road, the Line
-Lane. Pityful a rethoric question ran over her cheek, then she continued her
-way. On her way she met a copy.
+The result was:
 
-### Overlaid the jeepers uselessly much excluding
+* I did not listen him. I am super regretful :) ...
 
-But nothing the copy said could convince her and so it didn’t take long until a
-few insidious Copy Writers ambushed her, made her drunk with
-[Longe and Parole](http://google.com) and dragged her into their agency, where
-they abused her for their projects again and again. And if she hasn’t been
-rewritten, then they are still using her.
+I chose to improve myself in my area which is named **Material Science and Engineering** and I gratuaded from Afyon Kocatepe University as a M.Sc. as Material Scientist.
 
-> Far far away, behind the word mountains, far from the countries Vokalia and
-> Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
-> right at the coast of the Semantics, a large language ocean.
-
-It is a paradisematic country, in which roasted parts of sentences fly into your
-mouth. Even the all-powerful Pointing has no control about the blind texts it is
-an almost unorthographic life One day however a small line of blind text by the
-name of Lorem Ipsum decided to leave for the far World of Grammar.
-
-### According a funnily until pre-set or arrogant well cheerful
-
-The Big Oxmox advised her not to do so, because there were thousands of bad
-Commas, wild Question Marks and devious Semikoli, but the Little Blind Text
-didn’t listen. She packed her seven versalia, put her initial into the belt and
-made herself on the way.
+[Alphabet Village](http://google.com) and the subline of her own
 
 1.  So baboon this
 2.  Mounted militant weasel gregariously admonishingly straightly hey
@@ -56,52 +25,7 @@ made herself on the way.
 4.  Rash opossum less because less some amid besides yikes jeepers frenetic
     impassive fruitlessly shut
 
-When she reached the first hills of the Italic Mountains, she had a last view
-back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet
-Village and the subline of her own road, the Line Lane. Pityful a rethoric
-question ran over her cheek, then she continued her way. On her way she met a
-copy.
-
 > The copy warned the Little Blind Text, that where it came from it would have
 > been rewritten a thousand times and everything that was left from its origin
 > would be the word "and" and the Little Blind Text should turn around and
 > return to its own, safe country.
-
-But nothing the copy said could convince her and so it didn’t take long until a
-few insidious Copy Writers ambushed her, made her drunk with Longe and Parole
-and dragged her into their agency, where they abused her for their projects
-again and again. And if she hasn’t been rewritten, then they are still using
-her. Far far away, behind the word mountains, far from the countries Vokalia and
-Consonantia, there live the blind texts.
-
-#### Silent delightfully including because before one up barring chameleon
-
-Separated they live in Bookmarksgrove right at the coast of the Semantics, a
-large language ocean. A small river named Duden flows by their place and
-supplies it with the necessary regelialia. It is a paradisematic country, in
-which roasted parts of sentences fly into your mouth.
-
-Even the all-powerful Pointing has no control about the blind texts it is an
-almost unorthographic life One day however a small line of blind text by the
-name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox
-advised her not to do so, because there were thousands of bad Commas, wild
-Question Marks and devious Semikoli, but the Little Blind Text didn’t listen.
-
-##### Wherever far wow thus a squirrel raccoon jeez jaguar this from along
-
-She packed her seven versalia, put her initial into the belt and made herself on
-the way. When she reached the first hills of the Italic Mountains, she had a
-last view back on the skyline of her hometown Bookmarksgrove, the headline of
-Alphabet Village and the subline of her own road, the Line Lane. Pityful a
-rethoric question ran over her cheek, then she continued her way. On her way she
-met a copy.
-
-###### Slapped cozy a that lightheartedly and far
-
-The copy warned the Little Blind Text, that where it came from it would have
-been rewritten a thousand times and everything that was left from its origin
-would be the word "and" and the Little Blind Text should turn around and return
-to its own, safe country. But nothing the copy said could convince her and so it
-didn’t take long until a few insidious Copy Writers ambushed her, made her drunk
-with Longe and Parole and dragged her into their agency, where they abused her
-for their projects again and again.
