@@ -8,7 +8,6 @@
     "url": "https://github.com/omermindivanli/omermindivanli.com"
   },
   "dependencies": {
-    "babel-eslint": "^8.2.2",
     "emotion": "^9.1.0",
     "emotion-server": "^9.1.0",
     "gatsby": "^1.9.238",
@@ -57,7 +56,7 @@
     "format":
       "prettier  --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js' 'src/**/*.md'",
     "build": "gatsby build",
-    "fix":
+    "fix-semi":
       "eslint --quiet --ignore-pattern node_modules --ignore-pattern public --parser babel-eslint --no-eslintrc --rule '{\"semi\": [2, \"never\"], \"no-extra-semi\": [2]}' --fix gatsby-node.js"
   }
 }
