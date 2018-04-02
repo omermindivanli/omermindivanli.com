@@ -1,6 +1,7 @@
 import React from 'react'
 import Bio from '../components/Bio'
 import SocialMedia from '../components/SocialMedia'
+import DigitalClock from '../components/DigitalClock'
 
 import Link from 'gatsby-link'
 import get from 'lodash/get'
@@ -28,6 +29,7 @@ class BlogIndex extends React.Component {
         <Helmet title={siteTitle} />
         <Bio />
         <SocialMedia />
+        <DigitalClock />
         {posts.map(({ node }) => {
           const title = get(node, 'frontmatter.title') || node.fields.slug
           return (
