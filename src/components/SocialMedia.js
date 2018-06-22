@@ -82,6 +82,16 @@ export default class SocialMedia extends React.Component {
               />
             </a>
           </li>
+          <li style={styles.li}>
+            <a href="https://www.instagram.com/mindivanli/">
+              <img
+                className={className}
+                src={
+                  'https://seeklogo.com/images/I/instagram-new-2016-logo-4773FE3F99-seeklogo.com.png'
+                }
+              />
+            </a>
+          </li>
         </ul>
       </div>
     )
