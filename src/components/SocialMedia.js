@@ -67,7 +67,7 @@ export default class SocialMedia extends React.Component {
             </a>
           </li>
           <li style={styles.li}>
-            <a href="http://pluspng.com/img-png/medium-png-meet-more-bridge-startups-1667.png">
+            <a href="https://medium.com/@omermindivanli">
               <img
                 className={className}
                 src="http://pluspng.com/img-png/medium-png-meet-more-bridge-startups-1667.png"
