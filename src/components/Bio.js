@@ -4,7 +4,7 @@ import React from 'react'
 import 'typeface-montserrat'
 import 'typeface-merriweather'
 
-import profilePic from '../../static/img/profile-pic.jpg'
+// import profilePic from '../../static/img/profile-pic.jpg'
 import { rhythm } from '../utils/typography'
 
 class Bio extends React.Component {
@@ -20,19 +20,18 @@ class Bio extends React.Component {
         }}
       >
         <img
-          src={profilePic}
+          src="https://pbs.twimg.com/profile_images/992900395478462464/VuicS_fr_400x400.jpg"
           alt={`Ömer Mindivanli`}
           style={{
             marginRight: rhythm(1 / 2),
-            marginBottom: 0,
-            width: rhythm(2),
-            height: rhythm(2),
+            width: rhythm(4.5),
+            height: rhythm(4.5),
           }}
         />
         <p>
           Written by <strong>Ömer Mindivanli</strong> who is a JavaScript
           Developer, lives and works in Stockholm building Web Apps with mostly
-          React.{' '}
+          React.
           <a href="https://twitter.com/MindivanliOmer">
             <br />Follow me on Twitter
           </a>

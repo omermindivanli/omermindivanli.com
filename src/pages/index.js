@@ -19,7 +19,6 @@ class BlogIndex extends React.Component {
       padding: 0;
       border: 0;
       box-sizing: border-box;
-      box-shadow: none;
     }
   `
     const siteTitle = get(this, 'props.data.site.siteMetadata.title')

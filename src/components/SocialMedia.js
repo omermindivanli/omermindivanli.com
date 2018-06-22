@@ -25,13 +25,14 @@ export default class SocialMedia extends React.Component {
         backgroundColor: 'red',
       },
       li: {
+        textDecoration: 'none',
         display: 'inline',
         paddingLeft: '15px',
       },
     }
     const className = css`
-      width: 60px;
-      height: 60px;
+      width: 84px;
+      height: 85px;
       margin-left: 10px;
     `
     const anotherClassName = css`
@@ -62,6 +63,22 @@ export default class SocialMedia extends React.Component {
               <img
                 className={className}
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2000px-Octicons-mark-github.svg.png"
+              />
+            </a>
+          </li>
+          <li style={styles.li}>
+            <a href="http://pluspng.com/img-png/medium-png-meet-more-bridge-startups-1667.png">
+              <img
+                className={className}
+                src="http://pluspng.com/img-png/medium-png-meet-more-bridge-startups-1667.png"
+              />
+            </a>
+          </li>
+          <li style={styles.li}>
+            <a href="https://gitlab.com/omermindivanli">
+              <img
+                className={className}
+                src="https://png.icons8.com/color/1600/gitlab.png"
               />
             </a>
           </li>
