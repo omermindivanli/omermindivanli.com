@@ -10,6 +10,7 @@ import Helmet from 'react-helmet'
 import { rhythm } from '../utils/typography'
 
 import { css, injectGlobal } from 'emotion'
+import TechStack from '../components/TechStack'
 
 class BlogIndex extends React.Component {
   render() {
@@ -47,6 +48,7 @@ class BlogIndex extends React.Component {
           )
         })}
         <Github />
+        <TechStack />
       </div>
     )
   }
