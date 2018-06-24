@@ -30,6 +30,7 @@
     "lodash": "^4.17.5",
     "react-emotion": "^9.1.0",
     "react-responsive-grid": "^0.3.4",
+    "react-router": "^4.3.1",
     "typeface-merriweather": "0.0.43",
     "typeface-montserrat": "0.0.43",
     "typography-theme-wordpress-2016": "^0.15.10"
@@ -37,6 +38,7 @@
   "devDependencies": {
     "eslint": "^4.19.0",
     "eslint-plugin-react": "^7.7.0",
+    "jest": "^23.1.0",
     "prettier": "^1.11.1"
   },
   "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
@@ -52,7 +54,7 @@
   "scripts": {
     "start": "gatsby develop",
     "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "format": "prettier  --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js' 'src/**/*.md'",
     "build": "gatsby build",
     "fix-semi": "eslint --quiet --ignore-pattern node_modules --ignore-pattern public --parser babel-eslint --no-eslintrc --rule '{\"semi\": [2, \"never\"], \"no-extra-semi\": [2]}' --fix gatsby-node.js"

@@ -1,15 +1,9 @@
-node_modules/
-.gatsby-context.js
-.DS_Store
-.intermediate-representation/
-.cache/
-yarn.lock
-
 ## .gitignore file Citation following Github accounts
 ## omermindivanli, octocat, facebook and
 ###################
 
 ## JavaScript Stuffs
+.cache/
 node_modules
 dist
 build
@@ -19,6 +13,9 @@ flow-coverage/
 .module-cache
 remote-repo/
 scripts/flow/*/.flowconfig
+.gatsby-context.js
+.intermediate-representation/
+
 
 ## Vim
 *.swp
