@@ -28,6 +28,7 @@
     "gatsby-transformer-remark": "^1.7.37",
     "gatsby-transformer-sharp": "^1.6.22",
     "lodash": "^4.17.5",
+    "nodemon": "^1.17.5",
     "react-emotion": "^9.1.0",
     "react-responsive-grid": "^0.3.4",
     "react-router": "^4.3.1",
@@ -52,6 +53,7 @@
     "url": "git+git@github.com:omermindivanli/omermindivanli.com.git"
   },
   "scripts": {
+    "server": "nodemon ./server.js",
     "start": "gatsby develop",
     "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
     "test": "jest",

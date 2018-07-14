@@ -14,7 +14,7 @@ const Container = styled('div')``
 
 const TechStack = () => (
   <Container>
-    <a href="/interest">Interests:</a>
+    {/* <a href="/interest">Interests:</a> */}
     <p className={myStyle}>
       Linux, VR, Ai, JS, React, CSS-in-JS, Node.js, Back-end dev, Front-end Dev,
       DevOps, AWS, CloudNative Apps, Security, Web Techs, Entrepreneurship,
