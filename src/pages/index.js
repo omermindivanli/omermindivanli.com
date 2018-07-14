@@ -1,7 +1,6 @@
 import React from 'react'
 import Bio from '../components/Bio'
 import SocialMedia from '../components/SocialMedia'
-import Github from '../components/Github'
 
 import Link from 'gatsby-link'
 import get from 'lodash/get'
@@ -10,7 +9,6 @@ import Helmet from 'react-helmet'
 import { rhythm } from '../utils/typography'
 
 import { css, injectGlobal } from 'emotion'
-import TechStack from '../components/TechStack'
 
 class BlogIndex extends React.Component {
   render() {
@@ -47,8 +45,6 @@ class BlogIndex extends React.Component {
             </div>
           )
         })}
-        <Github />
-        <TechStack />
       </div>
     )
   }
