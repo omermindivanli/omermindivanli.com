@@ -16,26 +16,28 @@ class Template extends React.Component {
 
     if (location.pathname === rootPath) {
       header = (
-        <h1
-          style={{
-            ...scale(1.5),
-            marginBottom: rhythm(1.5),
-            marginTop: 0,
-          }}
-        >
-          <Link
+        <div>
+          <h1
             style={{
-              textDecoration: 'none',
-              fontSize: '50px',
-              boxShadow: 'none',
-              textDecoration: 'none',
-              color: 'inherit',
+              ...scale(1.5),
+              marginBottom: rhythm(1.5),
+              marginTop: 0,
             }}
-            to={'/'}
           >
-            Ömer Mindivanli
-          </Link>
-        </h1>
+            <Link
+              style={{
+                textDecoration: 'none',
+                fontSize: '40px',
+                boxShadow: 'none',
+                textDecoration: 'none',
+                color: 'inherit',
+              }}
+              to={'/'}
+            >
+              Ömer Mindivanli
+            </Link>
+          </h1>
+        </div>
       )
     } else {
       header = (
