@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import { Container } from 'react-responsive-grid'
-import LoginRegister from '../components/LoginRegister'
+import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import Experiences from '../components/Experiences'
 import { rhythm, scale } from '../utils/typography'
@@ -19,7 +19,7 @@ class Template extends React.Component {
     if (location.pathname === rootPath) {
       header = (
         <div>
-          <LoginRegister />
+          <Navbar />
           <h1
             style={{
               ...scale(1.5),
@@ -32,7 +32,6 @@ class Template extends React.Component {
                 textDecoration: 'none',
                 fontSize: '40px',
                 boxShadow: 'none',
-                textDecoration: 'none',
                 color: 'inherit',
               }}
               to={'/'}

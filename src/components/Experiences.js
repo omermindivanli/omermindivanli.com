@@ -17,7 +17,7 @@ class Experiences extends React.Component {
         <h2>JavaScript Experiences</h2>
         <ul>
           <li>React</li>
-          <li>Redux (Low)</li>
+          <li>Redux</li>
           <li>ES6</li>
           <li>Node.js + Express.js</li>
           <li>HTML and CSS</li>
@@ -37,11 +37,13 @@ class Experiences extends React.Component {
           <li>UI Testing with Jest and Enzyme</li>
           <li>React Native (Low)</li>
           <li>Docker</li>
+          <li>Nginx</li>
         </ul>
         <p>
           <strong>NOTE</strong>:{' '}
           <em>I have a theorical and real-world exp on these techs.</em>
         </p>
+        <a href="/">Go Back...</a>
       </div>
     )
   }

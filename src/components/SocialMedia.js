@@ -9,11 +9,6 @@ import { rhythm } from '../utils/typography'
 
 export default class SocialMedia extends React.Component {
   render() {
-    const userDatas = {
-      name: 'Ömer',
-      surname: 'Mindivanli',
-      avatar: 'https://avatars0.githubusercontent.com/u/24420843?s=40&v=4',
-    }
     const styles = {
       div: {
         display: 'flex',

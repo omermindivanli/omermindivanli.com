@@ -2,28 +2,20 @@ import React from 'react'
 import Bio from '../components/Bio'
 import SocialMedia from '../components/SocialMedia'
 import Footer from '../components/Footer'
+import globalCss from '../components/globalCss'
 import Link from 'gatsby-link'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
 
 import { rhythm } from '../utils/typography'
 
-import { injectGlobal } from 'emotion'
-
 class BlogIndex extends React.Component {
   render() {
-    injectGlobal`
-      * {
-        margin: 0;
-        padding: 0;
-        border: 0;
-        box-sizing: border-box;
-      }
-    `
     const siteTitle = get(this, 'props.data.site.siteMetadata.title')
     const posts = get(this, 'props.data.allMarkdownRemark.edges')
     return (
       <div>
+        <globalCss />
         <Helmet title={siteTitle} />
         <Bio />
         <SocialMedia />

@@ -1,7 +1,7 @@
 import React from 'react'
 import { css } from 'emotion'
 
-const LoginRegister = () => (
+const Navbar = () => (
   <div className={div}>
     <ul>
       <li className={className}>
@@ -16,7 +16,7 @@ const LoginRegister = () => (
       </li>
       <li className={className}>
         <a className={enabledLink} href="/jsexp">
-          <em>Experiences</em>
+          <em>JS Experiences</em>
         </a>
       </li>
     </ul>
@@ -31,8 +31,9 @@ const className = css`
 const link = css`
   font-size: 20px;
   pointer-events: none;
-  color: red;
+  color: #c4c2c2;
 `
+
 const enabledLink = css`
   font-size: 20px;
   color: #1ba0d7;
@@ -41,4 +42,4 @@ const div = css`
   margin-top: 0;
 `
 
-export default LoginRegister
+export default Navbar
