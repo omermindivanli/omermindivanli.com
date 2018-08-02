@@ -1,6 +1,5 @@
 import React from 'react'
 import Bio from '../components/Bio'
-import LoginRegister from '../components/LoginRegister'
 import SocialMedia from '../components/SocialMedia'
 import Footer from '../components/Footer'
 import Link from 'gatsby-link'
@@ -25,7 +24,6 @@ class BlogIndex extends React.Component {
     const posts = get(this, 'props.data.allMarkdownRemark.edges')
     return (
       <div>
-        <LoginRegister />
         <Helmet title={siteTitle} />
         <Bio />
         <SocialMedia />

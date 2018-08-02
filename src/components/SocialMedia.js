@@ -1,11 +1,9 @@
 import React from 'react'
+import { css } from 'emotion'
 
 // Import typefaces
 import 'typeface-montserrat'
 import 'typeface-merriweather'
-
-import { css, injectGlobal } from 'emotion'
-import styled from 'react-emotion'
 
 import { rhythm } from '../utils/typography'
 
