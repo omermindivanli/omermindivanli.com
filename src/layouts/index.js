@@ -3,6 +3,7 @@ import Link from 'gatsby-link'
 import { Container } from 'react-responsive-grid'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
+import FutureGoals from '../components/FutureGoals'
 import Experiences from '../components/Experiences'
 import { rhythm, scale } from '../utils/typography'
 
@@ -50,6 +51,18 @@ class Template extends React.Component {
           }}
         >
           <Experiences />
+          <Footer />
+        </Container>
+      )
+    } else if (location.pathname === '/futureGoals') {
+      return (
+        <Container
+          style={{
+            maxWidth: rhythm(27),
+            padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+          }}
+        >
+          <FutureGoals />
           <Footer />
         </Container>
       )

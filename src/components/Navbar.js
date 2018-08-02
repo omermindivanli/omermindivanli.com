@@ -19,6 +19,11 @@ const Navbar = () => (
           <em>JS Experiences</em>
         </a>
       </li>
+      <li className={className}>
+        <a className={enabledLink} href="/futureGoals">
+          <em>Future Goals</em>
+        </a>
+      </li>
     </ul>
   </div>
 )
