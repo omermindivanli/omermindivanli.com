@@ -13,6 +13,9 @@ class Template extends React.Component {
     let header
 
     let rootPath = `/`
+    let secondPath = `/jsexp`
+    let thirdPath = `/futureGoals`
+
     if (typeof __PREFIX_PATHS__ !== `undefined` && __PREFIX_PATHS__) {
       rootPath = __PATH_PREFIX__ + `/`
     }
@@ -42,7 +45,7 @@ class Template extends React.Component {
           </h1>
         </div>
       )
-    } else if (location.pathname === '/jsexp') {
+    } else if (location.pathname === secondPath) {
       return (
         <Container
           style={{
@@ -54,7 +57,7 @@ class Template extends React.Component {
           <Footer />
         </Container>
       )
-    } else if (location.pathname === '/futureGoals') {
+    } else if (location.pathname === thirdPath) {
       return (
         <Container
           style={{
