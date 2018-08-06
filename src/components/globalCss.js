@@ -9,6 +9,10 @@ injectGlobal`
   border: 0;
   box-sizing: border-box;
 }
+a{
+  box-shadow: 0 0 0 0 currentColor;
+  text-decoration: underline
+}
 `
 
 const globalCss = () => <p />

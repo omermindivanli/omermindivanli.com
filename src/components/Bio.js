@@ -39,7 +39,7 @@ class Bio extends React.Component {
           technology, I would rather Node.js. Even tough, I have lots of
           projects on my mind, I consider to be calm down before running a
           startup on the early steps of my career. One of my personality is
-          getting on well with people.
+          getting on well with people. 👩‍💻 👨‍💻
           <a href="https://twitter.com/MindivanliOmer">
             <br />Follow me on Twitter
           </a>

@@ -4,7 +4,7 @@ import { css } from 'emotion'
 const Navbar = () => (
   <div className={div}>
     <ul>
-      <li className={className}>
+      {/* <li className={className}>
         <a disabled="disabled" className={link} href="/signin">
           <em>Sign in</em>
         </a>
@@ -13,7 +13,7 @@ const Navbar = () => (
         <a disabled="disabled" className={link} href="/signup">
           <em>Sign up</em>
         </a>
-      </li>
+      </li> */}
       <li className={className}>
         <a className={enabledLink} href="/jsexp">
           <em>JS Experiences</em>
@@ -22,6 +22,11 @@ const Navbar = () => (
       <li className={className}>
         <a className={enabledLink} href="/futureGoals">
           <em>Future Goals</em>
+        </a>
+      </li>
+       <li className={className}>
+        <a className={enabledLink} href="/githubProjects">
+          <em>Github Projects</em>
         </a>
       </li>
     </ul>
